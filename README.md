@@ -10,3 +10,6 @@
 
 ```bash
 docker build -t nginx-static .
+
+
+docker run -p 8080:80 nginx-static
